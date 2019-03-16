@@ -1,22 +1,29 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif');
-html { font-size: 14px; background-color: var(--bg-color); color: var(--text-color); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; -webkit-font-smoothing: antialiased; }
+html { 
+  background: url(https://images.pexels.com/photos/956999/milky-way-starry-sky-night-sky-star-956999.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 h1 {
     color:antiquewhite
 }
 body {
-    background-color: white;
+    background-color: transparent;
     text-align: center;
     font-family: 'Noto Serif', serif;
+    color:whitesmoke
 }
 a {
-    color:black;
+    color:White;
 }
 a:active {
-    color:black;
+    color:White;
 }
 a:followed {
-    color:black;
+    color:white;
 }
 .nameattop {
     font-size: 50pt;
