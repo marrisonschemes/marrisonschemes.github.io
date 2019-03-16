@@ -1,3 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 h1 {
     color:antiquewhite
+}
+body {
+    background-color: #b87960;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+}
+a {
+    color:white;
+}
+a:active {
+    color:white;
+}
+a:followed {
+    color:white;
+}
+.nameattop {
+    font-size: 30pt;
+    font-family: Big John;
 }
