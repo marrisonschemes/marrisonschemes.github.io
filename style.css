@@ -1,11 +1,12 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
 h1 {
     color:antiquewhite
 }
 body {
     background-color: #b87960;
     text-align: center;
-    font-family: 'Roboto Slab', serif;
+    font-family: 'Noto Serif', serif;
 }
 a {
     color:white;
@@ -17,6 +18,6 @@ a:followed {
     color:white;
 }
 .nameattop {
-    font-size: 30pt;
-    font-family: Big John;
+    font-size: 50pt;
+    font-family: Noto Serif;
 }
