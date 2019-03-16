@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+@import url('https://fonts.googleapis.com/css?family=Vollkorn');
+/* font converted using font-converter.net. thank you! */
+@font-face {
+  font-family: "DoulosSILCompact";
+  src: url("./fonts/doulossilcompact-r.eot"); /* IE9 Compat Modes */
+  src: url("doulossilcompact-r.eot") format("embedded-opentype"); /* IE6-IE8 */
+  font-weight: normal;
+  font-style: normal;
+}
 html { 
   background: url(abstract-astro-astronomy-956999.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
@@ -8,12 +17,13 @@ html {
   background-size: cover;
 }
 h1 {
-    color:antiquewhite
+    color:antiquewhite;
+    font-family: 'Vollkorn';
 }
 body {
     background-color: transparent;
     text-align: center;
-    font-family: 'Noto Serif', serif;
+    font-family: 'Vollkorn';
     color:whitesmoke
 }
 a {
@@ -27,7 +37,7 @@ a:followed {
 }
 .nameattop {
     font-size: 50pt;
-    font-family: Open Sans;
+    font-family: Serif;
     background-color: transparent;
 }
 a:link, a:visited {
