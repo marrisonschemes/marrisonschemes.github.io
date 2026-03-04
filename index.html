@@ -1,69 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta http-equiv="content-type" content="text/html; charset=utf-8">
-  <meta name="mobile-web-app-capable" content="yes" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="authorization_endpoint" href="https://indieauth.com/auth">
-  <link rel="token_endpoint" href="https://tokens.indieauth.com/token">
-  <!-- To use social readers via microsub, follow these steps.
-    (Details: https://indieweb.org/Microsub#Getting_Started)
-    1. After publishing this to your domain, sign in to https://aperture.p3k.io/login with your domain
-    2. You will see a <link> tag displayed on your dashboard that looks like:
-      <link rel="microsub" href="https://aperture.p3k.io/microsub/000">
-    3. Copy that <link> tag and paste it after this HTML comment.
-    4. Publish the updated page!
-   -->
-  <title>My New Website</title>
-  <style>
-    @media (prefers-color-scheme: dark) {
-      html { background-color: #111111; color: #fbfbfb; }
-      a { color: #ca8465; }
-    }
-    body {
-      line-height: 1.6;
-      font-family: system-ui, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif;
-      text-align: center;
-      margin: 1rem auto;
-      min-height: 90vh;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-    }
-    img.u-photo { border-radius: 50%; }
-    ul { padding: 0; list-style: none; }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site Log - Privacy Policy</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif; color: #222; line-height: 1.7; background: #fff; padding: 40px 24px; }
+        .container { max-width: 680px; margin: 0 auto; }
+        h1 { font-size: 28px; font-weight: 700; color: #111; margin-bottom: 4px; }
+        .app-name { font-size: 14px; color: #888; margin-bottom: 6px; }
+        .updated { font-size: 13px; color: #999; margin-bottom: 32px; }
+        h2 { font-size: 17px; font-weight: 700; color: #111; margin-top: 28px; margin-bottom: 10px; }
+        p { font-size: 15px; color: #333; margin-bottom: 14px; }
+        strong { color: #111; }
+        a { color: #E8722A; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        hr { border: none; border-top: 1px solid #e0e0e0; margin: 32px 0; }
+    </style>
 </head>
-
 <body>
-  <!-- Reference for representative h-card properties: https://microformats.org/wiki/h-card -->
-  <main class="h-card" rel="author">
-    <!-- Uncomment and add __your_image__ to display a photo!
-      <img class="u-photo" alt="My profile photo" src="__your_image__" />
-    -->
-    <h1>
-      I'm <span class="p-name">Jane Smith</span>.
-    </h1>
+    <div class="container">
+        <h1>Privacy Policy</h1>
+        <div class="app-name">Site Log</div>
+        <div class="updated">Last Updated: March 3, 2026</div>
 
-    <p class="p-note">
-      ...and I am a human on the Internet.
-    </p>
+        <h2>Overview</h2>
+        <p>Site Log ("the App") is a daily logging application for construction professionals. This privacy policy explains what information we collect, how we use it, and your rights regarding your data.</p>
 
-    <ul>
-      <!-- Replace __this_page__ with your domain -->
-      <li><a class="u-uid u-url" href="__this_page__">My New Website</a></li>
+        <h2>Information We Collect</h2>
+        <p><strong>Account Information</strong><br>When you create an account, we collect your name, email address, and password. Your password is handled securely by Firebase Authentication and is never stored in plain text.</p>
+        <p><strong>Log Data</strong><br>The App stores the daily log entries you create, including dates, work types, contractor names, concrete suppliers, mix designs, yardage, weather conditions, temperatures, notes, and any other fields you fill in. This data is stored to provide the core functionality of the App.</p>
+        <p><strong>Photos</strong><br>When you attach photos to a log entry, they are uploaded to our cloud storage service. Photos are resized before upload to reduce file size. Photos are associated with your log entries and are accessible to anyone with access to the job they belong to.</p>
+        <p><strong>Usage Data</strong><br>We do not collect analytics, tracking data, or usage statistics. We do not use any third-party analytics services.</p>
 
-      <!-- Update or remove the below links! -->
-      
-      <!-- Replace _mygithubid_ with your GitHub username in both places on the next line: -->
-      <li>Github: <a class="u-url" href="https://github.com/_mygithubid_" rel="me">@_mygithubid_</a></li>
+        <h2>How We Use Your Information</h2>
+        <p>Your information is used solely to provide the functionality of the App. Account information is used for authentication and to allow team members to find and invite you by email. Log data and photos are stored so you and your team can access them across devices. PDF exports are generated on your device and are not stored on our servers.</p>
 
-      <!-- Replace _mytwitterid_ with your Twitter username in both places on the next line: -->
-      <li>Twitter: <a class="u-url" href="https://twitter.com/_mytwitterid_" rel="me">@_mytwitterid_</a></li>
-      
-    </ul>
-  </main>
+        <h2>Data Storage</h2>
+        <p>Your data is stored using Google Firebase services (Authentication, Firestore Database, and Cloud Storage), which are hosted in the United States. Firebase's security practices and compliance certifications are available at <a href="https://firebase.google.com/support/privacy">firebase.google.com/support/privacy</a>.</p>
+
+        <h2>Data Sharing</h2>
+        <p>We do not sell, rent, or share your personal information with third parties. Your log data and photos are only accessible to you and to other users you explicitly invite to a job through the App's sharing feature.</p>
+
+        <h2>Data Retention and Deletion</h2>
+        <p>Your data is retained as long as you maintain an active account. You can delete individual logs and jobs within the App at any time. If you wish to delete your entire account and all associated data, contact us at the email address below.</p>
+
+        <h2>Children's Privacy</h2>
+        <p>The App is not intended for use by children under the age of 13. We do not knowingly collect personal information from children under 13.</p>
+
+        <h2>Changes to This Policy</h2>
+        <p>We may update this privacy policy from time to time. Any changes will be reflected by updating the "Last Updated" date at the top of this document.</p>
+
+        <hr>
+
+        <h2>Contact</h2>
+        <p>If you have questions about this privacy policy or your data, contact us at:<br><a href="harrisonmatthew@protonmail.com">your@email.com</a></p>
+    </div>
 </body>
-
 </html>
